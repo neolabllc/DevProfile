@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>NeoLab</title>
+                <link rel="icon" type="image/png" href="https://github.com/neolabllc/DevProfile/blob/main/matrix.jpg?raw=true" />
+                <style>
+                    @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+                    body {
+                        background: #000000;
+                        color: #777777;
+                        font-size: 14px;
+                        line-height: 31px;
+                        letter-spacing: 0;
+                        font-weight: 400;
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    p,
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    h6 {
+                        letter-spacing: 0px;
+                        font-weight: normal;
+                        position: relative;
+                        font-weight: normal;
+                        line-height: 1.8;
+                        font-family: "Noto Serif", serif;
+                    }
+
+                    .apps {
+                        grid-template-columns: calc(100%/5) calc(100%/5) calc(100%/5) calc(100%/5) calc(100%/5);
+                        padding: 10px 50px;
+                        margin-top: 50px;
+                        display: grid;
+                    }
+
+                    .blur {
+                        background: url("https://play-lh.googleusercontent.com/1wKrHdq6r9nrAcyn0RUHmHK3ImrBkqDdgs83ghUWwC-cpKhPcc1cQeyEsZ9WGN4fGjS9=w7680-h4320-rw");
+                        background-position: center;
+                        background-size: contain;
+                        height: 50%;
+                        width: 100%;
+                        position: absolute;
+                        display: block;
+                        filter: blur(8px);
+                        -webkit-filter: blur(8px);
+                    }
+
+                    .store-ico {
+                        width: 120px;
+                        border-radius: 100px;
+                        margin: 13% 0px 5px 0px;
+                        border: 3px solid #ffffff30;
+                        transition: all .2s ease-in-out;
+                    }
+
+                    .app {
+                        transition: all .2s ease-in-out;
+                    }
+
+                    .store-ico:hover,
+                    .app:hover {
+                        transform: scale(1.1);
+                        cursor: pointer;
+                    }
+
+                    @media screen and (max-width: 640px) {
+                        .apps {
+                            grid-template-columns: calc(100%/2) calc(100%/2);
+                            padding: 10px 10px;
+                            margin-top: 30px;
+                            display: grid;
+                        }
+
+                        .blur {
+                            height: 25%;
+                        }
+                    }
+                </style>
+                <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="true">
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link rel="stylesheet"
+                    href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&amp;display=swa">
+            </head>
+
+            <body>
+                <div class="blur"></div>
+                <div style="position: absolute;display: block;width: 100%;text-align: center;"> 
+                    <img class="store-ico" src="https://github.com/neolabllc/DevProfile/blob/main/matrix.jpg?raw=true" />
+                    <h1 style="text-align: center;margin: 5px;color:#fff;">NeoLab</h1>
+                    <div class="apps">
+                        <a target="_blank" href="google.com" style="text-decoration: none;">
+                                <div class="app" style="text-align: center;display: block;padding: 0 30px;">
+                                    <img src="https://raw.githubusercontent.com/neolabllc/MemoSante/refs/heads/main/logo%20memosant%C3%A9.png" style="width: 100%;border-radius: 2rem;border: 3px solid #ffffff30;" />
+                                    <h3 style="text-align: center;margin: 10px 0;color:#fff;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">
+                                        MémoSanté - Agenda Rappel Rendez Vous
+                                    </h3>
+                                </div>
+                            </a>
+                    </div>
+                    <h3 style="text-align: center;margin: 7rem 0 1rem 0;color:#fff;">Powered by <a href="https://mobtwin.com"
+                            style="color: #e26990;text-decoration: none;" target="_blank">mobtwin.com</a> Generator</h3>
+                </div>
+            </body>
+
+            </html>
+        
