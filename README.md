@@ -1,7 +1,6 @@
 Developer Profile Page:
 
-**https://neolabllc.github.io/DevProfile/
-**
+https://neolabllc.github.io/DevProfile
 
 Developer Name:
 
