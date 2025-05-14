@@ -9,3 +9,9 @@ Developer Name:
 Email: 
 
 **neolab.llc.contact@gmail.com**
+
+APPS:
+
+MémoSanté:
+- Image : https://github.com/neolabllc/MemoSante/blob/main/logo%20memosant%C3%A9.png?raw=true
+- Privacy Policy: https://neolabllc.github.io/MemoSante/privacy-policy.html
