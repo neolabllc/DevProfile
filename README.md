@@ -12,6 +12,7 @@ Email:
 
 APPS:
 
-MémoSanté:
-- Image : https://github.com/neolabllc/MemoSante/blob/main/logo%20memosant%C3%A9.png?raw=true
-- Privacy Policy: https://neolabllc.github.io/MemoSante/privacy-policy.html
+- MémoSanté:
+  - Image : https://github.com/neolabllc/MemoSante/blob/main/logo%20memosant%C3%A9.png?raw=true
+  - Privacy Policy: https://neolabllc.github.io/MemoSante/privacy-policy.html
+  - Terms and Conditions:
